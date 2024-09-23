@@ -8,7 +8,6 @@ import {
   InvoiceSkeleton,
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
-import SideNav from '@/app/ui/dashboard/sidenav';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -19,7 +18,6 @@ export default async function Page() {
   // const totalCustomers = allCustomers.length;
   return (
     <main className="flex flex-row">
-      <SideNav />
       <div>
         <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
           Dashboard
